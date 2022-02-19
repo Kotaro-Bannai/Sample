@@ -10,4 +10,4 @@ run()
     return $?
 }
 
-run python3.8 python/sample.py
+run python3 python/sample.py
