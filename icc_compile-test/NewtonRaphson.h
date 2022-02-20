@@ -16,7 +16,7 @@ void NewtonRaphson()
     selfconsistent();
     f=phinew-phiold1;
     norm=fabs(f);
-    printf("%12.9lf\n",phinew);
+    // printf("%12.9lf\n",phinew);
 
     // phinew=phiold1+delta1;
     // phiold2=phinew;

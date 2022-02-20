@@ -1,4 +1,4 @@
-icc main.c -O3 -lm -mkl
+icc main.c -O3 -lm -qmkl
 time ./a.out
 rm a.out
 
