@@ -2,7 +2,7 @@
 
 TESTPYTHON="main.py"
 
-(sleep 10 ; ps ax | grep Python | grep $TESTPYTHON | tr -s " " | sed -e 's/^ //g' | cut -d " " -f 1 | xargs kill -INT) &
+(sleep 10 ; ps ax | grep Python | grep $TESTPYTHON | tr -s " " | sed -e 's/^ //g' | cut -d " " -f 1 | xargs kill -QUIT) &
 # (sleep 10 ; ps ax | grep Python | grep $TESTPYTHON | tr -s " " | sed -e 's/^ //g' | cut -d " " -f 1) &
 python3 $TESTPYTHON
 
